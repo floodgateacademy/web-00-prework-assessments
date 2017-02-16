@@ -1,0 +1,191 @@
+#fullWebsite {
+color:white;
+background-color: black;
+font-family: Lato;
+}
+
+* {
+	font-family: Lato;
+}
+
+/*========================
+Nav top
+============================*/
+#topImage {
+  width: 200px;
+  height: 60px;
+  position:relative;
+  left: 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+#space {
+  color:black;
+  font-size: 2px;
+}
+
+#contactus {
+  float: right;
+  position: relative;
+  right: 30px;
+  color:white
+}
+
+.nav {
+background-color:grey;
+padding: 2px;
+}
+
+#nav1 li:nth-child(n+2){
+ border-left:2px #D3D3D3 solid;
+}
+
+#nav1 li {
+  padding-right: 40px;
+  padding-left: 40px;
+  display: inline;
+  color: #f6f6f6;
+  background-color:grey;
+  font-size: 12px;
+}
+
+#nav1 li:hover{
+ color:white;
+ font-weight: 900;
+ font-style: italic;
+}
+
+
+/*===========================
+Main Img
+============================*/
+
+#mainPhoto img {
+  width: 100%;
+}
+
+
+/*===========================
+1st Boxs
+============================*/
+
+.boxs p:first-child {
+  color: orange;
+}
+
+.boxstop1:before {
+  content: url("https://github.com/arifgursel/web-fundamentals/blob/master/img/content_icon1.png?raw=true");
+  display: inline;
+}
+
+.boxstop2:before {
+  content: url("https://github.com/arifgursel/web-fundamentals/blob/master/img/content_icon2.png?raw=true");
+  display: inline;
+}
+
+.boxstop3:before {
+  content: url("https://github.com/arifgursel/web-fundamentals/blob/master/img/content_icon3.png?raw=true");
+  display: inline;
+}
+
+.boxstop4:before {
+  content: url("https://github.com/arifgursel/web-fundamentals/blob/master/img/content_icon4.png?raw=true");
+  display: inline;
+}
+
+
+.boxsbottom {
+ word-wrap: break-word;
+}
+
+.boxs {
+  word-wrap: break-word;
+  margin: 5px 0px 0px 50px;
+  display: inline-block;
+  width: 230px;
+  font-size: 16px;
+}
+
+#boxs p:first-child(n)
+{
+  color: orange;
+}
+
+/*===========================
+middle
+============================*/
+#middlebox {
+	background-color:black;
+}
+
+#middle {
+ padding: 1px 40px 40px 40px;
+ width: 50%;
+ word-wrap: break-word;
+ background-color: black;
+}
+
+#middlep1 {
+  font-size: 20px;
+}
+
+#middlep2 {
+  font-size: 10px;
+  
+}
+
+#button {
+  float: right;
+  position: relative;
+  top: -60px;
+  width: 110px;
+  height: 35px;
+  left: -200px;
+  background-color: orange;
+  color: white;
+  font-size:8px;
+  z-index: 1;
+  clear: both;
+}
+
+/*===========================
+bottom secection
+============================*/
+#smallwords p {
+  left: 45px;
+  top: 30px;
+  position:relative;
+}
+
+
+#smallwords a {
+ display: inline;
+ float: right;
+ position:relative;
+ left:900px;
+ color: orange;
+}
+
+
+#boxbox2 {
+  background-color: #141414;
+  color:white;
+  
+}
+
+#boxbox {
+   background-color: #141414;
+}
+
+#boxbox2 img:nth-child(n) {
+ border: grey 1px solid;
+ 
+}
+
+#boxbox2 p:nth-child(2n) {
+ color: orange;
+}
+
+#boxbox2 :nth-child(n) {
+ width: 200px;
+}

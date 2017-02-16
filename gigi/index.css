@@ -1,0 +1,47 @@
+h1 {
+  text-align: left;
+  color: white;
+  background-color: black;
+  padding-left: 10px;
+  display: in-line;
+  font-family: Georgia;
+}
+h2 {
+  text-align: right;
+  color: white;
+}
+div {
+    background-color: grey;
+    text color: white;
+}
+
+body {
+    background-color: black;
+}
+img1 {
+    size: 200px;
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+    width: 75%;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+  display: inline;
+  padding: 5px;
+}
+li a {
+  color: white;
+}
+img2 {
+  display: inline-block;
+}
+p {
+  color: orange;
+}
